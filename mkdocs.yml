@@ -1,0 +1,15 @@
+site_name: My Docs
+theme: material
+
+features:
+  - navigation.instant
+
+markdown_extensions:
+  ## For grids
+  - attr_list ## Also used for buttons
+  - md_in_html
+
+  ## For Admonitions
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
